@@ -1,1 +1,1 @@
-Official Site Repo of SOBP BrainHack - 2024
+Official Site Repo of FLUX BrainHack - 2025
