@@ -191,12 +191,11 @@
 .subcomittee-container {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-between;
 	gap: 2em;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 1em 0;
-	background: rgb(255, 255, 255);
 }
 
 .flex-item {
@@ -204,7 +203,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: flex-start;
-	width: calc(50% - 2em);
+	flex: 0 1 48%;
 	box-sizing: border-box;
 	text-align: center;
 	padding: 1em;
