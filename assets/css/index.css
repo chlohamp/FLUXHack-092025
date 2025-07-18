@@ -190,33 +190,32 @@
 
 .subcomittee-container {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 2em;
+	grid-template-columns: repeat(2, 1fr); /* 2 equal-width columns */
+	gap: 2em; /* spacing between rows and columns */
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 2em 1em;
 }
 
-
 .flex-item {
-	flex: 0 1 48%;
-	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
 	padding: 1em;
 	background: white;
+	box-sizing: border-box;
 }
+
 
 .flex-item img {
 	width: 100px;
 	height: 100px;
 	object-fit: cover;
-	object-position: center;
 	border-radius: 50%;
 	margin-bottom: 0.75em;
 }
+
 
 .description-text {
 	display: flex;
