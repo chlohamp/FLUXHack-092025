@@ -189,49 +189,48 @@
   }
 
 .subcomittee-container {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr); /* 2 equal-width columns */
-	gap: 2em; /* spacing between rows and columns */
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 2em 1em;
+  	display: grid;
+  	grid-template-columns: repeat(2, 1fr);
+  	gap: 2em;
+  	max-width: 900px;
+  	margin: 0 auto;
+  	padding: 2em 1em;
 }
 
 .flex-item {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	background: white;
+  	padding: 1em;
 	text-align: center;
-	padding: 1em;
-	background: white;
-	box-sizing: border-box;
+  	box-sizing: border-box;
 }
 
-
 .flex-item img {
-	width: 100px;
-	height: 100px;
-	object-fit: cover;
-	border-radius: 50%;
+  	width: 120px;
+  	height: 120px;
+  	border-radius: 50%;
+  	object-fit: cover;
 	margin-bottom: 0.75em;
 }
 
-
 .description-text {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	font-size: medium;
-	line-height: 1.4;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	text-align: center;
+  	line-height: 1.4;
+  	font-size: 1em;
 }
 
-@media (max-width: 800px) {
-	.flex-item {
-		width: 100%;
-	}
+/* Optional: Responsive 1-column layout for mobile */
+@media (max-width: 700px) {
+  	.subcomittee-container {
+    	grid-template-columns: 1fr;
+  	}
 }
-  
+
 
 .workshop-container {
 	display: -webkit-flex;
